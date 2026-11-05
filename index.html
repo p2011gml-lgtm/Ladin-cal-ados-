@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Landim Calçados — tênis, sandálias e calçados em Irecê, Bahia.">
+  <meta name="theme-color" content="#111111">
+  <title>Landim Calçados | Seu estilo começa aqui</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="topbar">LANDIM CALÇADOS <span>•</span> IRECÊ — BAHIA</div>
+  <header class="header">
+    <a class="brand" href="#inicio" aria-label="Landim Calçados - início">
+      <span class="brand-mark">L</span>
+      <span><strong>LANDIM</strong><small>CALÇADOS</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="nav" id="mainNav">
+      <a href="#inicio">Início</a><a href="#categorias">Categorias</a><a href="#destaques">Destaques</a><a href="#sobre">A loja</a>
+    </nav>
+    <a class="header-cta" href="#contato">Fale conosco <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow">LANDIM CALÇADOS • IRECÊ - BA</p>
+        <h1>O próximo passo<br><em>do seu estilo.</em></h1>
+        <p class="hero-text">Encontre calçados que combinam com você. Novidades, conforto e estilo para acompanhar todos os seus momentos.</p>
+        <div class="hero-actions"><a class="button button-gold" href="#destaques">Conheça os destaques <span>→</span></a><a class="text-link" href="#categorias">Explorar categorias</a></div>
+        <div class="hero-note"><span class="note-line"></span><span>Seu estilo. Seu caminho. Seu momento.</span></div>
+      </div>
+      <div class="hero-art" role="img" aria-label="Composição de calçados em vitrine">
+        <div class="hero-circle"></div>
+        <div class="hero-card hero-card-back"><span>PASSOS QUE</span><b>INSPIRAM</b></div>
+        <div class="hero-shoe">L<span>✦</span></div>
+        <div class="hero-stamp">ESTILO<br><b>EM CADA<br>PASSO</b></div>
+        <div class="hero-caption">LANDIM / COLEÇÃO</div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div><b>01</b><span>Estilo para todos os dias</span></div>
+      <div><b>02</b><span>Novidades na loja</span></div>
+      <div><b>03</b><span>Atendimento em Irecê - BA</span></div>
+    </section>
+
+    <section class="section categories" id="categorias">
+      <div class="section-heading"><div><p class="eyebrow">ENCONTRE O SEU ESTILO</p><h2>Explore por <em>categoria.</em></h2></div><p>Do casual ao especial: descubra opções para diferentes ocasiões.</p></div>
+      <div class="category-grid">
+        <a class="category-card category-one" href="#destaques"><span class="category-number">01 / FEMININO</span><span class="category-name">Sandálias <b>↗</b></span></a>
+        <a class="category-card category-two" href="#destaques"><span class="category-number">02 / URBANO</span><span class="category-name">Tênis <b>↗</b></span></a>
+        <a class="category-card category-three" href="#destaques"><span class="category-number">03 / CONFORTO</span><span class="category-name">Casual <b>↗</b></span></a>
+      </div>
+    </section>
+
+    <section class="section featured" id="destaques">
+      <div class="section-heading"><div><p class="eyebrow">SELEÇÃO LANDIM</p><h2>Em <em>destaque.</em></h2></div><p>Veja alguns modelos em evidência. Consulte disponibilidade e valores pelo WhatsApp.</p></div>
+      <div class="product-grid" id="productGrid">
+        <article class="product-card"><div class="product-image product-image-1"><span class="product-tag">DESTAQUE</span><span class="shoe-shape">✦</span></div><div class="product-info"><div><h3>Novidades em tênis</h3><p>Estilo para acompanhar você</p></div><button class="product-link" data-product="Novidades em tênis">Consultar ↗</button></div></article>
+        <article class="product-card"><div class="product-image product-image-2"><span class="shoe-shape">✧</span></div><div class="product-info"><div><h3>Sandálias selecionadas</h3><p>Leveza em cada passo</p></div><button class="product-link" data-product="Sandálias selecionadas">Consultar ↗</button></div></article>
+        <article class="product-card"><div class="product-image product-image-3"><span class="shoe-shape">✦</span></div><div class="product-info"><div><h3>Modelos casuais</h3><p>Conforto para sua rotina</p></div><button class="product-link" data-product="Modelos casuais">Consultar ↗</button></div></article>
+      </div>
+      <p class="catalog-note">* Imagens ilustrativas. Consulte a loja para ver os modelos, numerações, cores e preços disponíveis.</p>
+    </section>
+
+    <section class="about" id="sobre">
+      <div class="about-symbol">L<span>✦</span></div>
+      <div><p class="eyebrow">LANDIM CALÇADOS</p><h2>Uma loja perto de você.<br><em>Um novo passo a cada dia.</em></h2><p>Estamos em Irecê, Bahia, prontos para ajudar você a encontrar o calçado ideal. Acompanhe nossas novidades e fale com nossa equipe.</p><a class="button button-outline" href="#contato">Entre em contato <span>↗</span></a></div>
+    </section>
+
+    <section class="contact section" id="contato">
+      <div><p class="eyebrow">VAMOS CONVERSAR?</p><h2>Seu próximo par<br>pode estar <em>aqui.</em></h2></div>
+      <div class="contact-side"><p>Quer consultar um modelo, numeração ou disponibilidade? Chame a equipe Landim pelo WhatsApp.</p><a class="button button-gold" id="whatsappMain" href="#">Conversar pelo WhatsApp <span>↗</span></a><small>Irecê — Bahia</small></div>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="brand brand-footer" href="#inicio"><span class="brand-mark">L</span><span><strong>LANDIM</strong><small>CALÇADOS</small></span></a><span>© <span id="year"></span> Landim Calçados. Todos os direitos reservados.</span><a href="#inicio">Voltar ao topo ↑</a></footer>
+  <a class="whatsapp-float" id="whatsappFloat" href="#" aria-label="Fale pelo WhatsApp">✆</a>
+</body>
+</html>
